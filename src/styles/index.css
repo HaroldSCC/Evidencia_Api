@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EAECF8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.padre{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 125px;
+  margin-bottom: 80px;
+  width: 450px;
+  height: 600px;
+  background-color: #436BFE;
+  border-radius: 50px;
+}
+.hijo{
+  position: absolute;
+  margin: 25px;
+  width: 400px;
+  height: 550px;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+
+}
+.titulo{
+  text-align: center;
+}
+.boton{
+  text-decoration: none;
+  position: absolute;
+  color: #436BFE;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 190px;
+  width: 200px;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+  border:solid 2px #436BFE;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+}
+.boton:hover{
+  background-color: #436BFE;
+  color: white;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+}
+.nieto{
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  padding: 0px 20px 0px 20px;
+  width: 350px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 25px;
+  line-height: 35px;
+  border-bottom: 2px solid #DBDEE9;
+
+}
+.imagen{
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -100px;
+  border-radius: 150px;
+  width: 170px;
+}
